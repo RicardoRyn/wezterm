@@ -276,10 +276,10 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 
 | Keys                              | Action         |
 | --------------------------------- | -------------- |
-| <kbd>SUPER</kbd>+<kbd>[</kbd>     | Next Tab       |
-| <kbd>SUPER</kbd>+<kbd>]</kbd>     | Previous Tab   |
-| <kbd>SUPER_REV</kbd>+<kbd>[</kbd> | Move Tab Left  |
-| <kbd>SUPER_REV</kbd>+<kbd>]</kbd> | Move Tab Right |
+| <kbd>SUPER</kbd>+<kbd>,</kbd>     | Next Tab       |
+| <kbd>SUPER</kbd>+<kbd>.</kbd>     | Previous Tab   |
+| <kbd>SUPER_REV</kbd>+<kbd>,</kbd> | Move Tab Left  |
+| <kbd>SUPER_REV</kbd>+<kbd>.</kbd> | Move Tab Right |
 
 ##### Tabs: Title
 
@@ -348,8 +348,8 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 | Keys                              | Action                       |
 | --------------------------------- | ---------------------------- |
 | <kbd>SUPER</kbd>+<kbd>/</kbd>     | Select Random Image          |
-| <kbd>SUPER</kbd>+<kbd>,</kbd>     | Cycle to next Image          |
-| <kbd>SUPER</kbd>+<kbd>.</kbd>     | Cycle to previous Image      |
+| <kbd>SUPER</kbd>+<kbd>[</kbd>     | Cycle to next Image          |
+| <kbd>SUPER</kbd>+<kbd>]</kbd>     | Cycle to previous Image      |
 | <kbd>SUPER_REV</kbd>+<kbd>/</kbd> | Fuzzy select Image           |
 | <kbd>SUPER</kbd>+<kbd>b</kbd>     | Toggle background focus mode |
 

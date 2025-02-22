@@ -24,7 +24,6 @@ return {
 
     -- background
     background = backdrops:initial_options(false), -- set to true if you want wezterm to start on focus mode
-    -- background = {}, -- set to true if you want wezterm to start on focus mode
 
     -- scrollbar
     enable_scroll_bar = true,
@@ -39,7 +38,7 @@ return {
 
     -- window
     window_decorations = "INTEGRATED_BUTTONS | RESIZE",
-    window_padding = {left = 3, right = 3, top = 0, bottom = 0},
+    window_padding = { left = 3, right = 3, top = 0, bottom = 0 },
     adjust_window_size_when_changing_font_size = false,
     window_close_confirmation = 'NeverPrompt',
     window_frame = {
@@ -47,7 +46,7 @@ return {
         -- font = fonts.font,
         -- font_size = fonts.font_size,
     },
-    inactive_pane_hsb = {saturation = 0.9, brightness = 0.3},
+    inactive_pane_hsb = { saturation = 0.9, brightness = 0.3 },
 
     visual_bell = {
         fade_in_function = 'EaseIn',

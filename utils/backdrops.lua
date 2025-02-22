@@ -74,16 +74,16 @@ end
 function BackDrops:_create_opts()
     return {
         {
-            source = {File = self.images[self.current_idx]},
+            source = { File = self.images[self.current_idx] },
             horizontal_align = 'Center'
         }, {
-            source = {Color = colors.background},
-            height = '120%',
-            width = '120%',
-            vertical_offset = '-10%',
-            horizontal_offset = '-10%',
-            opacity = 0.96
-        }
+        source = { Color = colors.background },
+        height = '120%',
+        width = '120%',
+        vertical_offset = '-10%',
+        horizontal_offset = '-10%',
+        opacity = 0.96
+    }
     }
 end
 
@@ -93,7 +93,7 @@ end
 function BackDrops:_create_focus_opts()
     return {
         {
-            source = {Color = self.focus_color},
+            source = { Color = self.focus_color },
             height = '120%',
             width = '120%',
             vertical_offset = '-10%',
@@ -108,7 +108,7 @@ end
 function BackDrops:initial_options(focus_on)
     focus_on = focus_on or false
     assert(type(focus_on) == 'boolean',
-           'BackDrops:initial_options - Expected a boolean')
+        'BackDrops:initial_options - Expected a boolean')
 
     self.focus_on = focus_on
     if focus_on then return self:_create_focus_opts() end
@@ -134,7 +134,7 @@ function BackDrops:_set_focus_opt(window)
     local opts = {
         background = {
             {
-                source = {Color = self.focus_color},
+                source = { Color = self.focus_color },
                 height = '120%',
                 width = '120%',
                 vertical_offset = '-10%',
@@ -153,7 +153,7 @@ function BackDrops:choices()
     local choices = {}
     for idx, file in ipairs(self.images) do
         table.insert(choices,
-                     {id = tostring(idx), label = file:match('([^/]+)$')})
+            { id = tostring(idx), label = file:match('([^/]+)$') })
     end
     return choices
 end

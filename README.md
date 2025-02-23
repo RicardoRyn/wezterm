@@ -231,7 +231,7 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 
 | Keys                              | Action                                      |
 | --------------------------------- | ------------------------------------------- |
-| <kbd>F1</kbd>                     | `ActivateCopyMode`                          |
+| <kbd>LEADER</kbd>+<kbd>c</kbd>    | `ActivateCopyMode`                          |
 | <kbd>F2</kbd>                     | `ActivateCommandPalette`                    |
 | <kbd>F3</kbd>                     | `ShowLauncher`                              |
 | <kbd>F4</kbd>                     | `ShowLauncher` <sub>(tabs only)</sub>       |

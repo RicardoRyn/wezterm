@@ -2,8 +2,6 @@ local wezterm = require('wezterm')
 local umath = require('utils.math')
 local Cells = require('utils.cells')
 local OptsValidator = require('utils.opts-validator')
-local platform = require('utils.platform')
-local render_content = platform.is_win and { 'date_icon', 'date_text', 'separator', 'battery_icon', 'battery_text' } or { 'date_icon', 'date_text', 'battery_icon', 'battery_text' }
 
 ---@alias Event.RightStatusOptions { date_format?: string }
 
@@ -25,7 +23,7 @@ local attr = Cells.attr
 
 local M = {}
 
-local ICON_SEPARATOR = nf.oct_dash
+local ICON_SEPARATOR = ""  -- nf.oct_dash
 local ICON_DATE = nf.fa_calendar
 
 ---@type string[]
@@ -111,7 +109,7 @@ M.setup = function(opts)
 
         window:set_right_status(
             wezterm.format(
-                cells:render(render_content)
+                cells:render({ 'date_icon', 'date_text', 'separator', 'battery_icon', 'battery_text' })
             )
         )
     end)

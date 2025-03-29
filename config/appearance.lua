@@ -1,6 +1,4 @@
 local gpu_adapters = require('utils.gpu-adapter')
-local backdrops = require('utils.backdrops')
-local colors = require('colors.custom')
 local platform = require('utils.platform')
 local max_fps = platform.is_win and 240 or 60
 local tab_max_width = platform.is_win and 30 or 50
@@ -23,11 +21,7 @@ return {
     cursor_blink_rate = 650,
 
     -- color scheme
-    -- colors = colors,  -- 注释掉，使用默认的tokyonight主题
-    color_scheme = "tokyonight",
-
-    -- background
-    background = backdrops:initial_options(true), -- set to true if you want wezterm to start on focus mode
+    color_scheme = "tokyonight_moon",
 
     -- scrollbar
     enable_scroll_bar = true,

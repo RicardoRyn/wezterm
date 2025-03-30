@@ -21,7 +21,7 @@ return {
     cursor_blink_rate = 650,
 
     -- color scheme
-    color_scheme = "tokyonight_moon",
+    color_scheme = "Catppuccin Latte",
 
     -- scrollbar
     enable_scroll_bar = true,

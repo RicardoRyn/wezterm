@@ -97,9 +97,9 @@ local colors = {
     unseen_output_hover = { bg = '#5D87A3', fg = '#FFA066' },
     unseen_output_active = { bg = '#eff1f5', fg = '#FFA066' },
 
-    scircle_default = { bg = 'rgba(0, 0, 0, 0.4)', fg = '#45475A' },
-    scircle_hover = { bg = 'rgba(0, 0, 0, 0.4)', fg = '#5D87A3' },
-    scircle_active = { bg = 'rgba(0, 0, 0, 0.4)', fg = '#eff1f5' }
+    scircle_default = { bg = 'rgba(204, 208, 218, 1)', fg = '#45475A' },
+    scircle_hover = { bg = 'rgba(204, 208, 218, 1)', fg = '#5D87A3' },
+    scircle_active = { bg = 'rgba(204, 208, 218, 1)', fg = '#eff1f5' }
 }
 
 ---
